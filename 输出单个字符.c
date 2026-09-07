@@ -1,5 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int num;
-    
+    char num[100];
+    scanf("%c", &num);
+    printf("%c", num);
+    return 0;
+}
